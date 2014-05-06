@@ -5,6 +5,15 @@ gem 'rails', '4.0.4'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'mongoid-rspec'
+end
+
+group :test do
+  gem 'faker'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
 end
 
 gem 'mongoid', github: 'mongoid/mongoid'
