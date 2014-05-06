@@ -18,6 +18,7 @@ end
 
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'bson_ext'
+gem 'sidekiq'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
