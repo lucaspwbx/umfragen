@@ -15,6 +15,8 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'launchy'
+  gem 'timecop'
+  gem 'email_spec'
 end
 
 gem 'mongoid', github: 'mongoid/mongoid'
