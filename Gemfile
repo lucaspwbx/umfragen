@@ -7,6 +7,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'mongoid-rspec'
+  gem 'jasmine-rails'
 end
 
 group :test do
